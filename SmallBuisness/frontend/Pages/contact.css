@@ -1,11 +1,12 @@
 /* Contact Form */
 :root{
-    --green--color : #3cb815;
-    --light-green-color : #c0eb7b;
-    --orange-color : #FFA500;
-    --light-orange-color : #ff7e00;
-    --text-color : #1a2428;
-    --bg-color : #fff;
+    --violet--color: #431A5B;
+    --light-violet-color: #79399F;
+    --pink-color: #DF53B0;
+    --light-pink-color: #913873;
+    --text-color: #1a2428;
+    --bg-color: #EDE8F5;
+
 
 }
 .contact {
@@ -59,11 +60,11 @@ input, textarea, button {
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: var(--green--color);
+    border-color: var(--violet--color);
 }
 
 button {
-    background: var(--green--color);
+    background: var(--violet--color);
     color: var(--bg-color);
     font-weight: 500;
     border: none;
@@ -72,9 +73,9 @@ button {
 }
 
 button:hover {
-    background: var(--light-orange-color);
+    background: var(--light-pink-color);
 }
-
+/* Responsive */
 @media (max-width: 768px) {
     .contact {
         padding: 2rem 1rem;
